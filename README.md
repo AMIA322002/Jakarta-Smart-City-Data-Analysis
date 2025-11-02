@@ -3,31 +3,28 @@
 ## 📊 Overview  
 This project presents a comprehensive exploratory data analysis (EDA) of the **Jakarta Smart City dataset**, focusing on identifying patterns, relationships, and insights that can guide urban decision-making. The analysis explores correlations between population density, education, economic factors, and infrastructure quality across Jakarta’s regions.  
 
-## 🎯 Objectives  
-The main objectives of this project are to:  
-- Analyze and visualize key urban indicators to understand socio-economic dynamics.  
-- Examine relationships between education, employment, and infrastructure quality.  
-- Identify districts with potential for development and improvement.  
-- Provide data-driven insights that can support Jakarta Smart City’s policy decisions.  
+## Objectives
+- Examine patterns and trends in Jakarta's urban environment
 
-## 🧠 Key Analyses  
-1. **Exploratory Data Analysis (EDA)**  
-   - Data cleaning, transformation, and feature inspection.  
-   - Visualization of regional distributions using bar charts, scatter plots, and correlation heatmaps.  
+- Identify correlations between transportation, air quality, population dynamics, and waste management
 
-2. **Correlation Analysis**  
-   - Pearson correlation is used to evaluate the strength of linear relationships between numeric features.  
-   - Insights into how education, employment, and income levels interact with infrastructure and population metrics.  
+- Provide practical recommendations for improving sustainability and operational efficiency
 
-3. **Regression Analysis**  
-   - Linear regression applied to assess predictive relationships among selected variables.  
-   - Model evaluation using metrics such as R² and Mean Squared Error (MSE).  
-   - Interpretation focused on understanding how independent variables influence outcomes rather than predictive deployment.  
+## Key Insights & Conculsion
 
-## 📈 Results & Insights  
-- Strong correlations were observed between **education and income**, highlighting the economic impact of educational access.  
-- Regions with **higher infrastructure quality** also tend to have **lower unemployment rates**, suggesting equitable resource distribution may improve employment opportunities.  
-- The regression model confirms that **education level and employment rate** are significant predictors of income disparities across Jakarta’s districts.  
+- Traffic Congestion and Air Quality: Slower traffic speeds are directly linked to increased PM2.5 levels, highlighting the importance of sustainable traffic management to reduce emissions.
+
+- Public Engagement as an Indicator: Citizen complaints can act as a proxy for environmental stress, providing valuable real-time insights for city authorities.
+
+- Waste Management Independence: Waste generation patterns appear largely unaffected by air or traffic variables, implying a need for separate policy considerations in that domain.
+
+- Data Integration Value: Combining environmental and civic datasets enables a more holistic understanding of Jakarta’s urban dynamics and supports data-driven decision-making within Smart City initiatives.
+
+The findings highlight that sustainable growth in Jakarta requires a balanced focus on:
+- Reducing vehicular emissions,
+- Enhancing waste management systems, and
+- Distributing urban infrastructure more evenly across districts.
+
 
 ## 🛠️ Tools & Libraries  
 This project was conducted using:  
@@ -48,4 +45,4 @@ This project was conducted using:
 ```
 
 ## 💡 Conclusion  
-This analysis provides a data-driven perspective on Jakarta’s urban dynamics. By uncovering the relationships among education, employment, and infrastructure it offers valuable insights that can inform strategic initiatives for sustainable urban growth.
+This analysis provides a data-driven perspective on Jakarta’s urban dynamics. Future analyses can expand on this by integrating real-time IoT data streams and citizen-sourced feedback to achieve even more responsive smart city governance.
