@@ -33,16 +33,6 @@ This project was conducted using:
 - **Matplotlib & Seaborn** – visualization  
 - **Scikit-learn** – regression and statistical modeling  
 
-## Repository Structure
-```
-.
-├── data/
-│   └── jakarta_smart_city.csv          # Main dataset used for analysis
-│
-├── Jakarta Smart City Data Analysis.ipynb    # Main Jupyter Notebook
-│
-└── README.md                           # Project documentation
-```
 
 ## Conclusion  
 This analysis provides a data-driven perspective on Jakarta’s urban dynamics. Future analyses can expand on this by integrating real-time IoT data streams and citizen-sourced feedback to achieve even more responsive smart city governance.
